@@ -362,5 +362,7 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
-/Releasex64/ Rage-LowPriorityPropsRestore.map
-/Releasex64/ Rage-LowPriorityPropsRestore.asi
+
+# Local MSBuild / intermediate output
+DisableE.*/
+*.map

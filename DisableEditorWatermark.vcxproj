@@ -163,12 +163,17 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\dllmain.cpp" />
+    <ClCompile Include="src\FiveMWatermark.cpp" />
     <ClCompile Include="src\Hooking.cpp" />
     <ClCompile Include="src\Hooking.Patterns.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\FiveMWatermark.h" />
     <ClInclude Include="src\Hooking.h" />
     <ClInclude Include="src\Hooking.Patterns.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="src\DisableEditorWatermark.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
