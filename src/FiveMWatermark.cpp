@@ -128,6 +128,11 @@ namespace
 
 void StartFiveMWatermarkDisable()
 {
+	if (!GetModuleHandleW(L"CoreRT.dll"))
+	{
+		return;
+	}
+
 	HANDLE thread = CreateThread(nullptr, 0, InstallThread, nullptr, 0, nullptr);
 	if (thread)
 	{

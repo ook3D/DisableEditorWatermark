@@ -3,8 +3,7 @@
 
 namespace
 {
-	constexpr const char* kWatermarkRendererPattern =
-		"48 83 EC ? 8B 0D ? ? ? ? 65 48 8B 04 25 ? ? ? ? BA ? ? ? ? 48 8B 04 C8 8B 0C 02 D1 E9 F6 C1 ? 74 ? 83 3D";
+	constexpr const char* kWatermarkRendererPattern = "48 83 EC ? 8B 0D ? ? ? ? 65 48 8B 04 25 ? ? ? ? BA ? ? ? ? 48 8B 04 C8 8B 0C 02 D1 E9 F6 C1 ? 74 ? 83 3D";
 
 	void DisableEditorWatermark()
 	{
